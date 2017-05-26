@@ -7,6 +7,7 @@ Disjoint convex shell is described in the following paper: [Disjoint Convex Shel
 
 This repository aims to archive the nets of polyhedra created by [software tools](http://masc.cs.gmu.edu/wiki/Origami) developed by the [MASC group](http://masc.cs.gmu.edu) at George Mason University. 
 A net of a polyhedron is a type of 2D unfolding of the polyhedron; See detailed description in https://en.wikipedia.org/wiki/Net_(polyhedron)_
+paper ,project site, video
 
 ## Objectives
 
@@ -47,7 +48,9 @@ This disjoint convex shell program works on Mac OS X. We listed the required pro
 
 	**NOTE**: Before run the the code, you need to segment a model if you want try to get disjoint convex objects from the model.
 
-	The program takes one or more OBJ files. You can try some examples under the "models" folder. If you want to create figures and tables our paper contains, please see the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
+	The program takes one or more OBJ files. You can try some examples under the "models" folder. 
+
+* To create figures, tables, and plots  our paper contains, please consult the details in the the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
 
 ## Usage
@@ -55,7 +58,7 @@ Once you run the cshell program, it would open both a window(left) and a control
 
 	$ ./cshell models/yoshi-sep.obj
 
-	<img src="./window.jpg" height="400" alt="window"> <img src="./control_panel.jpg" height="400" alt="control_panel">
+<img src="./window.jpg" height="400" alt="window"> <img src="./control_panel.jpg" height="400" alt="control_panel">
 
 Here are somethings to try:
 1. Press **h** to show the convex hulls.
@@ -72,5 +75,6 @@ All of the functions in this program are listed in the [wiki page](https://githu
 
 ## Models
 
+We 
 
 
