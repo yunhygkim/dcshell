@@ -1,3 +1,3 @@
-ln -s ../../build/release/cshell .
+ln -s ../../build/release/dcshell .
 
-./cshell squirtle_seg0.obj squirtle_seg1.obj squirtle_seg2.obj squirtle_seg3.obj squirtle_seg4.obj squirtle_seg5.obj squirtle_seg6.obj
+./dcshell squirtle_seg0.obj squirtle_seg1.obj squirtle_seg2.obj squirtle_seg3.obj squirtle_seg4.obj squirtle_seg5.obj squirtle_seg6.obj

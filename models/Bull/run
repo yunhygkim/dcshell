@@ -1,3 +1,3 @@
-ln -s ../../build/release/cshell .
+ln -s ../../build/release/dcshell .
 
-./cshell bull_sep.obj
+./dcshell bull_sep.obj

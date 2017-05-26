@@ -1,4 +1,4 @@
-ln -s ../../build/release/cshell .
+ln -s ../../build/release/dcshell .
 
-./cshell yoshi-sep.obj
+./dcshell yoshi-sep.obj
 
