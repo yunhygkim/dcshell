@@ -5,7 +5,7 @@ bin/*
 # temp file
 .DS_Store
 *.swp*
-cshell
+dcshell
 *~
 
 # resulting file

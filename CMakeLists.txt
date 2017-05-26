@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
 
-project("cshell")
+project("dcshell")
 
 set(PACKAGE_VERSION "0.1.0")
 

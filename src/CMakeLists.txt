@@ -79,7 +79,7 @@ add_library(libcshell STATIC
 target_link_libraries(libcshell ${LIBCSHELL_DEPS})
 
 ######## cshell GUI ########
-set(APP_NAME cshell)
+set(APP_NAME dcshell)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR})
 
 

@@ -75,11 +75,11 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 2. Press the '**h**' key to show the convex hulls.
 3. Press the '**Simplify Hulls**' button to simplify the convex hulls.
 
-	* Before pressing the button, set '**iteration**' and '**maximum volume increase**'. 
+	* Before pressing the button, set '**iteration**' and '**maximum volume increase**' parameters. 
 
 4. Press the '**Remsh Hulls**' button to remesh the convex hulls.
 
-	* Before pressing the button, set '**iteration**' and '**maximum volume increase**'.
+	* Before pressing the button, set '**iteration**' and '**maximum volume increase**'parameters.
 	* Once the remeshing process is worked, the weighted average fatness for every iteration at different percentages of maximum volume increase will be recored in the "*_fatness_all.txt" file. 
 	* To check the current weighted average fatness, press the '**Print Fatness**' button.
 
@@ -88,19 +88,19 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 	* Before pressing the button, set '**collapse vertex dist**', '**volume sample size**', and '**c-svm C**' parameters.
 	* the '**c-svm C**', a important parameter, affects both running time and output quality.
 
-		* '**c-svm C**' is lower, then both computation time and output quality increase.
+		* If '**c-svm C**' is lower, then both computation time and output quality increase.
 	
 	* These are the three meothods
-		*'**Use Heuristic**' is the least-squares fit (LSF)
-		*'**Use Exact Volume**' is the exact volume computation
-		*'**Use SVM**' is the support vector machine (SVM)
+
+		* '**Use Heuristic**' is the least-squares fit (LSF)
+		* '**Use Exact Volume**' is the exact volume computation
+		* '**Use SVM**' is the support vector machine (SVM)
 	
 6. Press the '**Save Hulls**' button to save the resulting objects. Those resulting files are in the same directory where the Yoshi model exists.
 
 7. To reset all of the process, press '**Rebuild Hulls**'.
 
 ## Model
-
 
 the least-squares fit (LSF), the support vector machine (SVM), and the exact volume computation methods
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#echo "creating a xcode project from cshell codes"
+#echo "creating a xcode project from dcshell codes"
 echo "== start =="
 
 #cmake build_type_option code_path
@@ -29,5 +29,5 @@ cd build/release
 make
 cd -
 
-ln -s build/release/cshell .
+ln -s build/release/dcshell .
 echo "=== done ==="
