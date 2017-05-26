@@ -31,7 +31,7 @@ The required program and library are listed.
 * CGAL
 
 	The provided code requires only CGAL to install. Additional libraries are included in the "cshell/lib" directory. 
-	To install CGAL via Macports, please type this in the terminal: `$ sudo port install cgal +qt5`
+	To install CGAL via MacPorts, please type this in the terminal: `$ sudo port install cgal +qt5`
 
 ## Instructions
 
