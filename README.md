@@ -54,27 +54,29 @@ The required program and library are listed.
 		$ sh run
 
 	Once you type the script file, "run", it creates a "cshell" file linked to the execution file and it runs with the segmented objects in the directory.
-	please consult the detailed description in the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
+	Please consult the detailed description in the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
 ## Usage
 
-Here are somethings to try \\\\\\\\\\:
-All of the functions in this program are listed in the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
+Here is the usage of DC-shell program. This section is focused on and illustrates how to produce DC-shell step by step, 
+so some of the functions are not discussed. To check all of the functions, please go to the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
 1. Run the DC-shell program by typing this in the "cshell" directory: `$ ./cshell models/yoshi-sep.obj`
-	* Once you run the program and it would open both a window(left) and a control panel(right). You might see like this:
+	* Once you run the program, it would open both a window(left) and a control panel(right). You might see like this:
 
 <img src="./window.jpg" height="400" alt="window"> <img src="./control_panel.jpg" height="400" alt="control_panel">
 
-2. Press **h** to show the convex hulls.
-3. Press **simplify hulls** to simplify the convex hulls.
-4. Press **trim hulls** to make the hulls disjoint.
+2. Press the **h** key to show the convex hulls.
+3. Press the **Simplify Hulls** button to simplify the convex hulls.
+3. Press the **Remsh Hulls** button to remesh the convex hulls.
+4. Press the **Use Exact Volume** button to make the hulls disjoint.
 	* Two important parameters are **surface sample density** and **c-svm C**
 			
 		* Increase **surface sample density** will reduce the number of samples used and speeds up computation
 		* **c-svm C** affects both running time and output quality lower. The value increases both computation time and output quality.
 
-5. Once all convex ojects are trimmed and disjoint, then save the resulted objects by clicking **Save Hulls** and then you can use mesh unfolder to unfold each convex hull.
+5. Press the **Save Hulls** button to save the resulted objects 
+6. You can ...//// and then you can use mesh unfolder to unfold each convex hull.
 
 ## Models
 
