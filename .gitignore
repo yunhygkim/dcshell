@@ -6,7 +6,7 @@ bin/*
 .DS_Store
 *.swp*
 cshell
-
+*~
 
 # resulting file
 *hull*.obj
