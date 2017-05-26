@@ -78,7 +78,7 @@ All of the functions in this program are listed in the [wiki page](https://githu
 
 ## Models
 
-Many models used in this paper are obtained from [Thingiverse](http://thingiverse.com) and all Pokemon models are from [Thingiverse](http://roestudios.co.uk/project/3d-pokemon-models/).
-In the "cshell/models" directory, all those models were manually segmented into several parts.
+In the "cshell/models" directory, there are models manually segmented into several parts.
+Most of the original models used in this paper are obtained from [Thingiverse](http://thingiverse.com) and all Pokemon models are from [ROEStudios](http://roestudios.co.uk/project/3d-pokemon-models/).
 
 
