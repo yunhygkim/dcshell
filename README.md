@@ -61,9 +61,7 @@ The required program and library are listed.
 This section is focused on and illustrates how to produce DC-shell step by step, so some of the functions are not discussed. 
 To check all of the functions, please go to the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
-1. Run the DC-shell program by typing this in the "cshell" directory: 
-
-		$ ./cshell models/yoshi-sep.obj or $111
+1. Run the DC-shell program by typing this in the "cshell" directory: `$ ./cshell models/yoshi-sep.obj` or by typing this in the "cshell/models/Yoshi" directory, `$sh run`
 
 	* Once you run the program, it would open both a window(left) and a control panel(right). You might see like this:
 
