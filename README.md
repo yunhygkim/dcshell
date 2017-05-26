@@ -5,14 +5,14 @@ Disjoint convex shell(DC-shell) is a set of disjoint convex objects approximatin
 The DC-shell method we proposed provides better approximation than those created by other methods. 
 In addition, DC-shell enables faster collision response and realistic fracturing simulation by preventing convex objects from overlapping themselves.
 
-DC-shell is described in the following paper: 
+DC-shell implemets the algorithms described in the following paper: 
 "Disjoint Convex Shell and its Applications in Mesh Unfolding", SPM 2017, by Yun-hyeong Kim, Zhonghua Xi, and Jyh-Ming Lien. 
 ([Web Site](http://masc.cs.gmu.edu/wiki/DCShell) / [Paper]() / [Video]() / [BibTex]())
 
-## Objective
+## Description
 
 The provided code constructs disjoint convex objects from overlapping or segmented parts as inputs.
-The code produces DC-shells created by LSF(least-squares fit) heuristic method, SVM and exact volume optimization methods.
+The code can produce DC-shells created by LSF(least-squares fit) heuristic method, SVM and exact volume optimization methods.
 To demonstrate the power of DC-shell, we studied how DC-shell can be used in mesh unfolding. 
 The nets of polyhedra we used were created by [software tools](http://masc.cs.gmu.edu/wiki/Origami) developed by the [MASC group](http://masc.cs.gmu.edu) at George Mason University. 
 
