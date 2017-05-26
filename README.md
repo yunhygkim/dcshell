@@ -7,7 +7,7 @@ In addition, DC-shell enables faster collision response and realistic fracturing
 
 DC-shell implemets the algorithms described in the following paper: 
 "Disjoint Convex Shell and its Applications in Mesh Unfolding", SPM 2017, by Yun-hyeong Kim, Zhonghua Xi, and Jyh-Ming Lien. 
-([Web Site](http://masc.cs.gmu.edu/wiki/DCShell) / [Paper]() / [Video](https://youtu.be/r8yK_nS0dVk) / [BibTex]())
+([Web Site](http://masc.cs.gmu.edu/wiki/DCShell) / [Video](https://youtu.be/r8yK_nS0dVk))
 
 ## Description
 
