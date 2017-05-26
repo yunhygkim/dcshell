@@ -78,8 +78,10 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 
 4. Press the '**Remsh Hulls**' button to remesh the convex hulls.
 
-	* Before pressing the button, 
+	* Before pressing the button,
+ 
 		*set '**iteration**" and '**maximum volum increase**".
+
 	* To get weighted average fatness for every iteration
 
 5. Press the '**Use Exact Volume**' button to make the hulls disjoint.
