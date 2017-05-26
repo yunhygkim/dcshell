@@ -751,7 +751,7 @@ void remesh_glmodel_hulls(int i)
     }
 
 
-    if(false)
+    if(true)
     {
         if(i==0)    cout<< "saving fatness data"<<endl;
         save_fatness(i, init_fatness, curr_fatness);
