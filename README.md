@@ -26,9 +26,7 @@ The required program and library are listed.
 * Mac OS X 10.9.5 or newer
 * CMake 2.6 or newer
 
-	To install CMake program using [MacPorts](https://www.macports.org/), please type this in the terminal:
-
-		$ sudo port install cmake
+	To install CMake program using [MacPorts](https://www.macports.org/), please type this in the terminal:	`$ sudo port install cmake`
 
 * CGAL
 
