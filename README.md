@@ -50,7 +50,7 @@ This disjoint convex shell program works on Mac OS X. We listed the required pro
 
 	**NOTE**: Before run the the code, you need to segment a model if you want try to get disjoint convex objects from the model.
 
-	The program takes one or more OBJ files. You can try some examples under the "models" folder. If you want to create figures and tables our paper contains, please see the [wiki page](https://github.com/yunhkim/DCshell_t/wiki). 
+	The program takes one or more OBJ files. You can try some examples under the "models" folder. If you want to create figures and tables our paper contains, please see the [wiki page](https://github.com/yunhkim/DCshell/wiki). 
 
 
 ## Usage
@@ -69,7 +69,7 @@ Here are somethings to try:
 
 4. Once all convex ojects are trimmed and disjoint, then save the resulted objects by clicking **Save Hulls** and then you can use mesh unfolder to unfold each convex hull.
 
-All of the functions in this program are listed in the [wiki page](https://github.com/yunhkim/DCshell_t/wiki). 
+All of the functions in this program are listed in the [wiki page](https://github.com/yunhkim/DCshell/wiki). 
 
 ## Models
 
