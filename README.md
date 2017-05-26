@@ -83,16 +83,16 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 	* Once the remeshing process is worked, the weighted average fatness for every iteration at different percentages of maximum volume increase will be recored in the "*_fatness_all.txt" file. 
 	* To check the current weighted average fatness, press the '**Print Fatness**' button.
 
-5. Press one of the three buttons such as`**Use Heuristic**`, `**Use Exact Volume**`, and `**Use SVM**` to make the hulls disjoint.
+5. Press one of the three buttons such as'**Use Heuristic**', '**Use Exact Volume**', and '**Use SVM**' to make the hulls disjoint.
 
-	* Before pressing the button, set `**collapse vertex dist**`, `**volume sample size**`, and `**c-svm C**` parameters.
-	* the `**c-svm C**`, a important parameter, affects both running time and output quality.
+	* Before pressing the button, set '**collapse vertex dist**', '**volume sample size**', and '**c-svm C**' parameters.
+	* the '**c-svm C**', a important parameter, affects both running time and output quality.
 
-		* `**c-svm C**` is lower, then both computation time and output quality increase.
+		* '**c-svm C**' is lower, then both computation time and output quality increase.
 	
-6. Press the `**Save Hulls**` button to save the resulting objects. Those resulting files are in the same directory where the Yoshi model exists.
+6. Press the '**Save Hulls**' button to save the resulting objects. Those resulting files are in the same directory where the Yoshi model exists.
 
-7. To reset all of the process, press `**Rebuild Hulls**`.
+7. To reset all of the process, press '**Rebuild Hulls**'.
 
 ## Models
 
