@@ -26,12 +26,12 @@ The required program and library are listed.
 * Mac OS X 10.9.5 or newer
 * CMake 2.6 or newer
 
-	To install CMake program using [MacPorts](https://www.macports.org/), please type this in the terminal:	`$ sudo port install cmake`
+	To install CMake program via [MacPorts](https://www.macports.org/), please type this in the terminal: `$ sudo port install cmake`
 
 * CGAL
 
 	The provided code requires only CGAL to install. Additional libraries are included in the "cshell/lib" directory. 
-	To install CGAL library using Macports, please type this in the terminal: `$ sudo port install cgal +qt5`
+	To install CGAL via Macports, please type this in the terminal: `$ sudo port install cgal +qt5`
 
 ## Instructions
 
@@ -48,14 +48,14 @@ The required program and library are listed.
 
 	**NOTE**: Before run the the code, you need to segment a model if you want try to get disjoint convex objects of a model.
 
-	This program takes one or more OBJ files. You can try some examples under the "cshell/models" directory. //
+	This program takes one or more OBJ files. You can try to run this program following several steps in the Usage Section.
 
-* To create figures or tables or plots our paper contains, please type the command below in the "cshell/models/\*" directory:
-
+* To create figures or tables or plots our paper contains, please type this in the "cshell/models/\*" directory: 
+	
 		$ sh run
 
 	Once you type the script file, "run", it creates a "cshell" file linked to the execution file and it runs with the segmented objects in the directory.
-	please consult the detailed description in the the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
+	please consult the detailed description in the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
 ## Usage
 Once you run the cshell program, it would open both a window(left) and a control panel(right). You might see like this:
