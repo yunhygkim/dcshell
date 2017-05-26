@@ -58,10 +58,13 @@ The required program and library are listed.
 
 ## Usage
 
-Here is the usage of DC-shell program. This section is focused on and illustrates how to produce DC-shell step by step, 
-so some of the functions are not discussed. To check all of the functions, please go to the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
+This section is focused on and illustrates how to produce DC-shell step by step, so some of the functions are not discussed. 
+To check all of the functions, please go to the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
-1. Run the DC-shell program by typing this in the "cshell" directory: `$ ./cshell models/yoshi-sep.obj`
+1. Run the DC-shell program by typing this in the "cshell" directory: 
+
+		$ ./cshell models/yoshi-sep.obj or $111
+
 	* Once you run the program, it would open both a window(left) and a control panel(right). You might see like this:
 
 <img src="./window.jpg" height="400" alt="window"> <img src="./control_panel.jpg" height="400" alt="control_panel">
@@ -71,7 +74,7 @@ so some of the functions are not discussed. To check all of the functions, pleas
 3. Press the **Remsh Hulls** button to remesh the convex hulls.
 4. Press the **Use Exact Volume** button to make the hulls disjoint.
 	* Two important parameters are **surface sample density** and **c-svm C**
-			
+		//////	
 		* Increase **surface sample density** will reduce the number of samples used and speeds up computation
 		* **c-svm C** affects both running time and output quality lower. The value increases both computation time and output quality.
 
