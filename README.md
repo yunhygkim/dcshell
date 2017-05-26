@@ -20,21 +20,19 @@ The nets of polyhedra we used were created by [software tools](http://masc.cs.gm
 
 ## Requirements
 
-This disjoint convex shell program works on Mac OS X. We listed the required program and library.
+The provided code can be run on Mac OS X and it was currently tested on a MacBook Air, with Mac OSX 10.9.5 and 10.11.6.
+The required program and library are listed.
 
 * Mac OS X 10.9.5 or newer
-
-	The provided code was currently  tested on a MacBook Air, with Mac OSX 10.9.5 and 10.11.6.
-
 * CMake 2.6 or newer
 
-	You can easily install CMake from [Macports](). To install CMake program using Macports, type this in the terminal:
+	To install CMake program using [MacPorts](https://www.macports.org/), please type this in the terminal:
 
 		$ sudo port install cmake
 
-* CGAL library
+* CGAL
 
-	The provided code requires only CGAL library. Other libraries are included in the "lib" folder. To install CGAL library using Macports, type this in the terminal:
+	The provided code requires only CGAL. Other libraries are included in the "lib" folder. To install CGAL library using Macports, please type this in the terminal:
 
 		$ sudo port install cgal +qt5
 
