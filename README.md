@@ -60,12 +60,13 @@ The required program and library are listed.
 This section is focused on and illustrates how to produce DC-shell step by step, so some of the functions are not discussed. 
 To check all of the functions, please go to the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
-1. Go to the "dcshell/models" directory in the repostory.
-2. Go to one of the models directories. For example, select the "Yoshi" directory.
+1. Go to the "dcshell/models" directory in the repostory and Go to one of the models directories. For example, select the "Yoshi" directory.
 
 	* In the directory, there is "yoshi-sep.obj". It will be used as an input model.
 
-3. Run the DC-shell program by typing this: `$ sh run` or `$ ./dcshell yoshi-sep.obj`
+3. Run the DC-shell program by typing this: 
+	
+	`$ sh run`(this command will be used in the other model directory) or `$ ./dcshell yoshi-sep.obj`
 
 	* Once you run the program, it would open both a window(left) and a control panel(right). You might see like this:
 
@@ -74,15 +75,13 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 2. Press the '**h**' key to show the convex hulls.
 3. Press the '**Simplify Hulls**' button to simplify the convex hulls.
 
-	* Before pressing the button, set '**iteration**" and '**maximum volum increase**". 
+	* Before pressing the button, set '**iteration**' and '**maximum volume increase**'. 
 
 4. Press the '**Remsh Hulls**' button to remesh the convex hulls.
 
-	* Before pressing the button,
- 
-		* set '**iteration**" and '**maximum volum increase**".
-
-	* To get weighted average fatness for every iteration
+	* Before pressing the button, set '**iteration**' and '**maximum volume increase**'.
+	* Once the remeshing process is worked, the weighted average fatness for every iteration at different percentages of maximum volume increase will be recored in the "*_fatness_all.txt" file. 
+	* If you want to check the current weighted average fatness, press the '**Print Fatness**' button.
 
 5. Press the '**Use Exact Volume**' button to make the hulls disjoint.
 6. Press the '**Save Hulls**' button to save the resulting objects. Those resulting files are in the same directory where the Yoshi model exists.
