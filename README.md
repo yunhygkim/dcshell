@@ -57,9 +57,11 @@ The required program and library are listed.
 	please consult the detailed description in the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
 ## Usage
-Once you run the cshell program, it would open both a window(left) and a control panel(right). You might see like this:
+Once you type 
 
-	$ ./cshell models/yoshi-sep.obj
+
+1. Run the DC-shell program by typeing this: `$ ./cshell models/yoshi-sep.obj`
+	* Once you run the program and it would open both a window(left) and a control panel(right). You might see like this:
 
 <img src="./window.jpg" height="400" alt="window"> <img src="./control_panel.jpg" height="400" alt="control_panel">
 
