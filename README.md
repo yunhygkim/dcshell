@@ -90,11 +90,19 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 
 		* '**c-svm C**' is lower, then both computation time and output quality increase.
 	
+	* These are the three meothods
+		*'**Use Heuristic**' is the least-squares fit (LSF)
+		*'**Use Exact Volume**' is the exact volume computation
+		*'**Use SVM**' is the support vector machine (SVM)
+	
 6. Press the '**Save Hulls**' button to save the resulting objects. Those resulting files are in the same directory where the Yoshi model exists.
 
 7. To reset all of the process, press '**Rebuild Hulls**'.
 
-## Models
+## Model
+
+
+the least-squares fit (LSF), the support vector machine (SVM), and the exact volume computation methods
 
 In the "dcshell/models" directory, there are models manually segmented into several parts.
 Most of the original models used in this paper are obtained from [Thingiverse](http://thingiverse.com) and all Pokemon models are from [ROEStudios](http://roestudios.co.uk/project/3d-pokemon-models/).
