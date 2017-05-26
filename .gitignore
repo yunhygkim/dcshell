@@ -1,0 +1,11 @@
+#build files
+build/*
+bin/*
+
+#project temp file
+.DS_Store
+*.swp
+cshell
+
+#models
+models/*
