@@ -71,7 +71,7 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 3. Press the **Simplify Hulls** button to simplify the convex hulls.
 4. Press the **Remsh Hulls** button to remesh the convex hulls.
 5. Press the **Use Exact Volume** button to make the hulls disjoint.
-6. Press the **Save Hulls** button to save the resulting objects. Those are in the same directory where the Yoshi model exists.
+6. Press the **Save Hulls** button to save the resulting objects. Those resulting files are in the same directory where the Yoshi model exists.
 
 ## Models
 

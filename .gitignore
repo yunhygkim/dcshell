@@ -1,11 +1,12 @@
-#build files
+# build files
 build/*
 bin/*
 
-#project temp file
+# temp file
 .DS_Store
-*.swp
+*.swp*
 cshell
 
-#models
-models/*
+
+# resulting file
+*hull*.obj
