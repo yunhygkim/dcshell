@@ -2,24 +2,19 @@
 #### Yun-hyeong Kim, Zhonghua Xi, Jyh-Ming Lien
 
 Disjoint convex shell(DC-shell) is a set of disjoint convex objects approximating non-convex overapping object sets.
-DC-shell we proposed provides better approximation than those created by other methods. 
+The DC-shell method we proposed provides better approximation than those created by other methods. 
 In addition, DC-shell enables faster collision response and realistic fracturing simulation by preventing convex objects from overlapping themselves.
 
-
 DC-shell is described in the following paper: 
-	"Disjoint Convex Shell and its Applications in Mesh Unfolding", SPM 2017, by Yun-hyeong Kim, Zhonghua Xi, and Jyh-Ming Lien.
-	[Web Site](http://masc.cs.gmu.edu/wiki/DCShell) / [Paper]() / [BibTex]()
+"Disjoint Convex Shell and its Applications in Mesh Unfolding", SPM 2017, by Yun-hyeong Kim, Zhonghua Xi, and Jyh-Ming Lien. 
+([Web Site](http://masc.cs.gmu.edu/wiki/DCShell) / [Paper]() / [Video]() / [BibTex]())
 
+## Objective
 
-
-This repository aims to archive the nets of polyhedra created by [software tools](http://masc.cs.gmu.edu/wiki/Origami) developed by the [MASC group](http://masc.cs.gmu.edu) at George Mason University. 
-A net of a polyhedron is a type of 2D unfolding of the polyhedron; See detailed description in https://en.wikipedia.org/wiki/Net_(polyhedron)_
-paper ,project site, video
-
-## Objectives
-
-This code constructs convex objects from given overlapping or segmented parts.
-The objective of this program is to build disjoint convex objects that jointly represent the input shape.
+The provided code constructs disjoint convex objects from overlapping or segmented parts as inputs.
+The code produces DC-shells created by LSF(least-squares fit) heuristic method, SVM and exact volume optimization methods.
+To demonstrate the power of DC-shell, we studied how DC-shell can be used in mesh unfolding. 
+The nets of polyhedra we used were created by [software tools](http://masc.cs.gmu.edu/wiki/Origami) developed by the [MASC group](http://masc.cs.gmu.edu) at George Mason University. 
 
 ## Requirements
 
@@ -28,6 +23,7 @@ This disjoint convex shell program works on Mac OS X. We listed the required pro
 * Mac OS X 10.9.5 or newer
 
 	The provided code was tested on a MacBook Air, with Mac OSX 10.9.5 and 10.11.6.
+
 * CMake 2.6 or newer
 
 	You can easily install CMake from [Macports](). To install CMake program using Macports, type this in the terminal:
@@ -59,6 +55,7 @@ This disjoint convex shell program works on Mac OS X. We listed the required pro
 
 * To create figures, tables, and plots  our paper contains, please consult the details in the the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
+See detailed description in https://
 
 ## Usage
 Once you run the cshell program, it would open both a window(left) and a control panel(right). You might see like this:
