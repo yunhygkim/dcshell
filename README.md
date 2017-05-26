@@ -30,44 +30,48 @@ The required program and library are listed.
 
 * CGAL
 
-	The provided code requires only CGAL to install. Additional libraries are included in the "cshell/lib" directory. 
+	The provided code requires only CGAL to install. Additional libraries are included in the "dcshell/lib" directory. 
 	To install CGAL via MacPorts, please type this in the terminal: `$ sudo port install cgal +qt5`
 
 ## Instructions
 
-* To compile the provided code, please type the commands below in the "cshell" directory:
+* To compile the provided code, please type the commands below in the "dcshell" directory:
 
 		$ chmod +x gen.sh
 		$ ./gen.sh
 
-	The provided code can be compiled using the script file, "gen.sh" and create a "cshell" file linked to the execution file.
+	The provided code can be compiled using the script file, "gen.sh" and create a "dcshell" file linked to the execution file.
 
-* To run the provided code, please type the command below in the "cshell" directory, the root dirctory:
+* To run the provided code, please type the command below in the "dcshell" directory, the root dirctory:
 
-		$ ./cshell <model_1.obj> <model_2.obj> ... <model_n.obj>
+		$ ./dcshell <model_1.obj> <model_2.obj> ... <model_n.obj>
 
 	This program takes one or more OBJ files. You can try to run this program following several steps in the Usage Section. 
 	(**NOTE**: if you want to get disjoint convex objects from a given model, you need to segment it before running the the code.)
 
-* To create figures or tables or plots our paper contains, please type this in the "cshell/models/\*" directory: 
+* To create figures or tables or plots our paper contains, please type this in the "dcshell/models/\*" directory: 
 	
 		$ sh run
 
-	Once you type the script file, "run", it creates a "cshell" file linked to the execution file and it runs with the segmented objects in the directory.
-	Please consult the detailed description in the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
+	Once you type the script file, "run", it creates a "dcshell" file linked to the execution file and it runs with the segmented objects in the directory.
 
 ## Usage
 
 This section is focused on and illustrates how to produce DC-shell step by step, so some of the functions are not discussed. 
 To check all of the functions, please go to the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
-1. Run the DC-shell program by typing this in the "cshell" directory: `$ ./cshell models/yoshi-sep.obj`
+1. Go to the "dcshell/models" directory in the repostory.
+2. Go to one of the models directories. For example, select the "Yoshi" directory.
+
+	* In the directory, there is "yoshi-sep.obj". It will be used as an input model.
+
+3. Run the DC-shell program by typing this: `$ sh run` or `$ ./dcshell yoshi-sep.obj`
 
 	* Once you run the program, it would open both a window(left) and a control panel(right). You might see like this:
 
 <img src="./window.jpg" height="400" alt="window"> <img src="./control_panel.jpg" height="400" alt="control_panel">
 
-2. Press the **h** key to show the convex hulls.
+2. Press the '**h**' key to show the convex hulls.
 3. Press the **Simplify Hulls** button to simplify the convex hulls.
 4. Press the **Remsh Hulls** button to remesh the convex hulls.
 5. Press the **Use Exact Volume** button to make the hulls disjoint.
@@ -75,7 +79,5 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 
 ## Models
 
-In the "cshell/models" directory, there are models manually segmented into several parts.
+In the "dcshell/models" directory, there are models manually segmented into several parts.
 Most of the original models used in this paper are obtained from [Thingiverse](http://thingiverse.com) and all Pokemon models are from [ROEStudios](http://roestudios.co.uk/project/3d-pokemon-models/).
-
-
