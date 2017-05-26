@@ -1,0 +1,3 @@
+ln -s ../../build/release/cshell .
+
+./cshell cow00.obj cow01.obj

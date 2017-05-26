@@ -1,0 +1,3 @@
+ln -s ../../build/release/cshell .
+
+./cshell Vulpix-sep0.obj Vulpix-sep1.obj Vulpix-sep2.obj Vulpix-sep3.obj Vulpix-sep4.obj Vulpix-sep5.obj Vulpix-sep6.obj Vulpix-sep7.obj Vulpix-sep8.obj Vulpix-sep9.obj Vulpix-sep10.obj Vulpix-sep11.obj

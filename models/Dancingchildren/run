@@ -1,0 +1,3 @@
+ln -s ../../build/release/cshell .
+
+./cshell dancing-children-seg-16.obj

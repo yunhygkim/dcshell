@@ -1,0 +1,4 @@
+ln -s ../../build/release/cshell .
+
+./cshell yoshi-sep.obj
+

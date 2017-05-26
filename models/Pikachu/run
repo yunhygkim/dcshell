@@ -1,0 +1,3 @@
+ln -s ../../build/release/cshell .
+
+./cshell pikachu_seg_0.obj pikachu_seg_1.obj pikachu_seg_2.obj pikachu_seg_3.obj pikachu_seg_4.obj pikachu_seg_5.obj pikachu_seg_6.obj

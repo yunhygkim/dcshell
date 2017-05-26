@@ -1,0 +1,3 @@
+ln -s ../../build/release/cshell .
+
+./cshell ultraman-ace-sep0.obj ultraman-ace-sep1.obj ultraman-ace-sep2.obj ultraman-ace-sep3.obj ultraman-ace-sep4.obj ultraman-ace-sep5.obj ultraman-ace-sep6.obj ultraman-ace-sep7.obj ultraman-ace-sep8.obj
