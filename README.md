@@ -80,7 +80,7 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 
 	* Before pressing the button,
  
-		*set '**iteration**" and '**maximum volum increase**".
+		* set '**iteration**" and '**maximum volum increase**".
 
 	* To get weighted average fatness for every iteration
 
