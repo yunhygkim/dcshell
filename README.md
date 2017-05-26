@@ -50,11 +50,13 @@ This disjoint convex shell program works on Mac OS X. We listed the required pro
 
 	**NOTE**: Before run the the code, you need to segment a model if you want try to get disjoint convex objects from the model.
 
-	The program takes one or more OBJ files. You can try some examples under the "models" folder. If you want to create figures and tables our paper contains, please see the [wiki page](https://github.com/yunhkim/DCshell/wiki). 
+	The program takes one or more OBJ files. You can try some examples under the "models" folder. If you want to create figures and tables our paper contains, please see the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
 
 ## Usage
 Once you run the cshell program, it would open both a window(left) and a control panel(right). You might see like this:
+
+		$ ./cshell .obj .obj .obj .obj 
 
 <img src="./window.jpg" height="400" alt="window"> <img src="./control_panel.jpg" height="400" alt="control_panel">
 
@@ -62,14 +64,14 @@ Here are somethings to try:
 1. Press **h** to show the convex hulls.
 2. Press **simplify hulls** to simplify the convex hulls.
 3. Press **trim hulls** to make the hulls disjoint.
-	* Two important parameters are **surface sample density** and **c-svm**
+	* Two important parameters are **surface sample density** and **c-svm C**
 			
-		* Increase **surface sample density** will
-		* ...
+		* Increase **surface sample density** will reduce the number of samples used and speeds up computation
+		* **c-svm C** affects both running time and output quality lower. The value increases both computation time and output quality.
 
 4. Once all convex ojects are trimmed and disjoint, then save the resulted objects by clicking **Save Hulls** and then you can use mesh unfolder to unfold each convex hull.
 
-All of the functions in this program are listed in the [wiki page](https://github.com/yunhkim/DCshell/wiki). 
+All of the functions in this program are listed in the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
 ## Models
 
