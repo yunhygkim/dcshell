@@ -90,11 +90,11 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 
 		* If '**c-svm C**' is lower, then both computation time and output quality increase.
 	
-	* These are the three meothods
+	* These buttons use the methods
 
-		* '**Use Heuristic**' is the least-squares fit (LSF)
-		* '**Use Exact Volume**' is the exact volume computation
-		* '**Use SVM**' is the support vector machine (SVM)
+		* The '**Use Heuristic**' button  uses the least-squares fit (LSF) method
+		* The '**Use Exact Volume**' button uses the exact volume computation method
+		* The '**Use SVM**' button uses the support vector machine (SVM) method
 	
 6. Press the '**Save Hulls**' button to save the resulting objects. Those resulting files are in the same directory where the Yoshi model exists.
 
