@@ -1,9 +1,16 @@
 # Disjoint Convex Shell
 #### Yun-hyeong Kim, Zhonghua Xi, Jyh-Ming Lien
 
-Disjoint convex shell(DC-shell) is a set of pairwise interior disjoint convex objects that collectively approximate the given polyhedron. Prevending convex objects from oberlapping enables faster and robust collistion response and more realistic fracturing simulation.
+Disjoint convex shell(DC-shell) is a set of disjoint convex objects approximating non-convex overapping object sets.
+DC-shell we proposed provides better approximation than those created by other methods. 
+In addition, DC-shell enables faster collision response and realistic fracturing simulation by preventing convex objects from overlapping themselves.
 
-Disjoint convex shell is described in the following paper: [Disjoint Convex Shell and its Applications in Mesh Unfolding](http://masc.cs.gmu.edu/wiki/DCShell)
+
+DC-shell is described in the following paper: 
+	"Disjoint Convex Shell and its Applications in Mesh Unfolding", SPM 2017, by Yun-hyeong Kim, Zhonghua Xi, and Jyh-Ming Lien.
+	[Web Site](http://masc.cs.gmu.edu/wiki/DCShell) / [Paper]() / [BibTex]()
+
+
 
 This repository aims to archive the nets of polyhedra created by [software tools](http://masc.cs.gmu.edu/wiki/Origami) developed by the [MASC group](http://masc.cs.gmu.edu) at George Mason University. 
 A net of a polyhedron is a type of 2D unfolding of the polyhedron; See detailed description in https://en.wikipedia.org/wiki/Net_(polyhedron)_
