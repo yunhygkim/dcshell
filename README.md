@@ -72,9 +72,6 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 4. Press the **Remsh Hulls** button to remesh the convex hulls.
 5. Press the **Use Exact Volume** button to make the hulls disjoint.
 6. Press the **Save Hulls** button to save the resulted objects 
-7. You can ...//// and then you can use mesh unfolder to unfold each convex hull.
-
-		* **c-svm C** affects both running time and output quality lower. The value increases both computation time and output quality.
 
 ## Models
 
