@@ -7,12 +7,14 @@ In addition, DC-shell enables faster collision response and realistic fracturing
 
 DC-shell implemets the algorithms described in the following paper: 
 "Disjoint Convex Shell and its Applications in Mesh Unfolding", SPM 2017, by Yun-hyeong Kim, Zhonghua Xi, and Jyh-Ming Lien. 
-([Web Site](http://masc.cs.gmu.edu/wiki/DCShell) / [Paper]() / [Video]() / [BibTex]())
+([Web Site](http://masc.cs.gmu.edu/wiki/DCShell) / [Paper]() / [Video](https://youtu.be/r8yK_nS0dVk) / [BibTex]())
 
 ## Description
 
 The provided code constructs disjoint convex objects from overlapping or segmented parts as inputs.
 The code can produce DC-shells created by LSF(least-squares fit) heuristic method, SVM and exact volume optimization methods.
+Moreover, before creating DC-shells, we can simplify and remesh the parts to decrease the complexity and increase their regularity.
+
 To demonstrate the power of DC-shell, we studied how DC-shell can be used in mesh unfolding. 
 The nets of polyhedra we used were created by [software tools](http://masc.cs.gmu.edu/wiki/Origami) developed by the [MASC group](http://masc.cs.gmu.edu) at George Mason University. 
 
@@ -22,7 +24,7 @@ This disjoint convex shell program works on Mac OS X. We listed the required pro
 
 * Mac OS X 10.9.5 or newer
 
-	The provided code was tested on a MacBook Air, with Mac OSX 10.9.5 and 10.11.6.
+	The provided code was currently  tested on a MacBook Air, with Mac OSX 10.9.5 and 10.11.6.
 
 * CMake 2.6 or newer
 
