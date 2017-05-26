@@ -35,20 +35,20 @@ The required program and library are listed.
 
 ## Instructions
 
-* To compile the provided code, please type the commands below in the "cshell" folder, the root directory:
+* To compile the provided code, please type the commands below in the "cshell" directory:
 
 		$ chmod +x gen.sh
 		$ ./gen.sh
 
 	The provided code can be compiled using the script file, "gen.sh" and create a "cshell" file linked to the execution file.
 
-* To run the provided code, please type the command below in the "cshell" folder, the root dirctory:
+* To run the provided code, please type the command below in the "cshell" directory, the root dirctory:
 
 		$ ./cshell <model_1.obj> <model_2.obj> ... <model_n.obj>
 
 	**NOTE**: Before run the the code, you need to segment a model if you want try to get disjoint convex objects of a model.
 
-	This program takes one or more OBJ files. You can try some examples under the "models" folder. 
+	This program takes one or more OBJ files. You can try some examples under the "cshell/models" directory. 
 
 * To create figures or tables or plots our paper contains, please consult the detailed description in the the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
