@@ -61,7 +61,7 @@ The required program and library are listed.
 This section is focused on and illustrates how to produce DC-shell step by step, so some of the functions are not discussed. 
 To check all of the functions, please go to the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
-1. Run the DC-shell program by typing this in the "cshell" directory: `$ ./cshell models/yoshi-sep.obj` or by typing this in the "cshell/models/Yoshi" directory, `$sh run`
+1. Run the DC-shell program by typing this in the "cshell" directory: `$ ./cshell models/yoshi-sep.obj`
 
 	* Once you run the program, it would open both a window(left) and a control panel(right). You might see like this:
 
@@ -69,15 +69,12 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 
 2. Press the **h** key to show the convex hulls.
 3. Press the **Simplify Hulls** button to simplify the convex hulls.
-3. Press the **Remsh Hulls** button to remesh the convex hulls.
-4. Press the **Use Exact Volume** button to make the hulls disjoint.
-	* Two important parameters are **surface sample density** and **c-svm C**
-		//////	
-		* Increase **surface sample density** will reduce the number of samples used and speeds up computation
-		* **c-svm C** affects both running time and output quality lower. The value increases both computation time and output quality.
+4. Press the **Remsh Hulls** button to remesh the convex hulls.
+5. Press the **Use Exact Volume** button to make the hulls disjoint.
+6. Press the **Save Hulls** button to save the resulted objects 
+7. You can ...//// and then you can use mesh unfolder to unfold each convex hull.
 
-5. Press the **Save Hulls** button to save the resulted objects 
-6. You can ...//// and then you can use mesh unfolder to unfold each convex hull.
+		* **c-svm C** affects both running time and output quality lower. The value increases both computation time and output quality.
 
 ## Models
 
