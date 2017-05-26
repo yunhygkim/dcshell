@@ -47,7 +47,7 @@ The required program and library are listed.
 		$ ./cshell <model_1.obj> <model_2.obj> ... <model_n.obj>
 
 	This program takes one or more OBJ files. You can try to run this program following several steps in the Usage Section. 
-	(**NOTE**: Before run the the code, you need to segment a model if you want try to get disjoint convex objects of a model.)
+	(**NOTE**: if you want to get disjoint convex objects from a given model, you need to segment it before running the the code.)
 
 * To create figures or tables or plots our paper contains, please type this in the "cshell/models/\*" directory: 
 	
