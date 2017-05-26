@@ -41,7 +41,7 @@ This disjoint convex shell program works on Mac OS X. We listed the required pro
 
 	These commands compile the code and create a "cshell" file linked to the execution file.
 
-* To run the provided code, please type the command below:
+* To run the provided code, please type the command below in the root dirctory:
 
 		$ ./cshell <model_1.obj> <model_2.obj> ... <model_n.obj>
 
@@ -53,9 +53,9 @@ This disjoint convex shell program works on Mac OS X. We listed the required pro
 ## Usage
 Once you run the cshell program, it would open both a window(left) and a control panel(right). You might see like this:
 
-		$ ./cshell .obj .obj .obj .obj 
+	$ ./cshell models/yoshi-sep.obj
 
-<img src="./window.jpg" height="400" alt="window"> <img src="./control_panel.jpg" height="400" alt="control_panel">
+	<img src="./window.jpg" height="400" alt="window"> <img src="./control_panel.jpg" height="400" alt="control_panel">
 
 Here are somethings to try:
 1. Press **h** to show the convex hulls.
