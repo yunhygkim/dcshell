@@ -57,8 +57,7 @@ The required program and library are listed.
 
 ## Usage
 
-This section is focused on and illustrates how to produce DC-shell step by step, so some of the functions are not discussed. 
-To check all of the functions, please go to the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
+This section is focused on and illustrates how to produce DC-shell step by step. 
 
 1. Go to the "dcshell/models" directory in the repository and Go to one of the models' directories. For example, select the "Yoshi" directory.
 
@@ -75,34 +74,32 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 2. Press the '**h**' key to show the convex hulls.
 3. Press the '**Simplify Hulls**' button to simplify the convex hulls.
 
-	* Before pressing the button, set '**iteration**' and '**maximum volume increase**' parameters. 
+	* Before pressing the button, set the '**iteration**' and '**maximum volume increase**' parameters. 
 
 4. Press the '**Remsh Hulls**' button to remesh the convex hulls.
 
-	* Before pressing the button, set '**iteration**' and '**maximum volume increase**'parameters.
-	* Once the remeshing process is worked, the weighted average fatness for every iteration at different percentages of maximum volume increase will be recorded in the "*_fatness_all.txt" file. 
+	* Before pressing the button, set the '**iteration**' and '**maximum volume increase**'parameters.
+	* Once the remeshing process is started, the weighted average fatness for every iteration at different percentages of maximum volume increase will be recorded in the "*_fatness_all.txt" file. 
 	* To check the current weighted average fatness, press the '**Print Fatness**' button.
 
 5. Press one of the three buttons such as'**Use Heuristic**', '**Use Exact Volume**', and '**Use SVM**' to make the hulls disjoint.
 
 	* Before pressing the button, set '**collapse vertex dist**', '**volume sample size**', and '**c-svm C**' parameters.
-	* the '**c-svm C**', an important parameter, affects both running time and output quality.
+	* The cost parameter, '**c-svm C**', affects both running time and output quality.
 
-		* If '**c-svm C**' is lower, then both computation time and output quality increase.
+		* If '**c-svm C**' is lower, then both the computation time and the output quality increase.
 	
 	* These buttons use the methods
 
-		* The '**Use Heuristic**' button  uses the least-squares fit (LSF) method
-		* The '**Use Exact Volume**' button uses the exact volume computation method
-		* The '**Use SVM**' button uses the support vector machine (SVM) method
+		* The '**Use Heuristic**' button: trimming the given objects using the least-squares fit (LSF) method
+		* The '**Use Exact Volume**' button trimming the given objects using the exact volume computation method
+		* The '**Use SVM**' button: trimming the given objects using the support vector machine (SVM) method
 	
 6. Press the '**Save Hulls**' button to save the resulting objects. Those resulting files are in the same directory where the Yoshi model exists.
 
 7. To reset all of the processes, press '**Rebuild Hulls**'.
 
 ## Model
-
-the least-squares fit (LSF), the support vector machine (SVM), and the exact volume computation methods
 
 In the "dcshell/models" directory, there are models manually segmented into several parts.
 Most of the original models used in this paper are obtained from [Thingiverse](http://thingiverse.com) and all Pokemon models are from [ROEStudios](http://roestudios.co.uk/project/3d-pokemon-models/).
