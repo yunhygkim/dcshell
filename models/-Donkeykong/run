@@ -1,3 +1,0 @@
-ln -s ../../build/release/dcshell .
-
-./dcshell cow00.obj cow01.obj

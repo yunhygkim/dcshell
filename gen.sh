@@ -21,9 +21,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 	cd -
 fi
 
-echo "=== done ==="
-
-echo "=== run ==="
 cd build/release
 #make -j4
 make
