@@ -2,7 +2,7 @@
 #### [Yun-hyeong Kim](http://kimyunhyg.blogspot.kr/), [Zhonghua Xi](http://masc.cs.gmu.edu/wiki/ZhonghuaXi), [Jyh-Ming Lien](http://cs.gmu.edu/~jmlien)
 
 ## Goal
-Separate overlapping convex shapes into disjoint convex shapes with minimal volume loss
+Separate (trim) overlapping convex shapes into disjoint convex shapes with minimal volume loss
 
 ## Abstract
 Disjoint convex shell (DC-shell) is a set of disjoint convex objects approximating non-convex overlapping object sets.
