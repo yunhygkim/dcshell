@@ -1,18 +1,18 @@
 # Disjoint Convex Shell
 #### Yun-hyeong Kim, Zhonghua Xi, Jyh-Ming Lien
 
-Disjoint convex shell(DC-shell) is a set of disjoint convex objects approximating non-convex overapping object sets.
+Disjoint convex shell(DC-shell) is a set of disjoint convex objects approximating non-convex overlapping object sets.
 The DC-shell method we proposed provides better approximation than those created by other methods. 
 In addition, DC-shell enables faster collision response and realistic fracturing simulation by preventing convex objects from overlapping themselves.
 
-DC-shell implemets the algorithms described in the following paper: 
+DC-shell implements the algorithms described in the following paper: 
 "Disjoint Convex Shell and its Applications in Mesh Unfolding", SPM 2017, by Yun-hyeong Kim, Zhonghua Xi, and Jyh-Ming Lien. 
 ([Web Site](http://masc.cs.gmu.edu/wiki/DCShell) / [Video](https://youtu.be/r8yK_nS0dVk))
 
 ## Description
 
 The provided code constructs disjoint convex objects from overlapping or segmented parts as inputs.
-The code can produce DC-shells created by LSF(least-squares fit) heuristic method, SVM and exact volume optimization methods.
+The code can produce DC-shells created by LSF(least-squares fit) heuristic method, SVM, and exact volume optimization methods.
 Moreover, before creating DC-shells, we can simplify and remesh the parts to decrease the complexity and increase their regularity.
 
 To demonstrate the power of DC-shell, we studied how DC-shell can be used in mesh unfolding. 
@@ -60,7 +60,7 @@ The required program and library are listed.
 This section is focused on and illustrates how to produce DC-shell step by step, so some of the functions are not discussed. 
 To check all of the functions, please go to the [wiki page](https://github.com/yunhkim/dcshell/wiki). 
 
-1. Go to the "dcshell/models" directory in the repostory and Go to one of the models directories. For example, select the "Yoshi" directory.
+1. Go to the "dcshell/models" directory in the repository and Go to one of the models' directories. For example, select the "Yoshi" directory.
 
 	* In the directory, there is "yoshi-sep.obj". It will be used as an input model.
 
@@ -80,13 +80,13 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 4. Press the '**Remsh Hulls**' button to remesh the convex hulls.
 
 	* Before pressing the button, set '**iteration**' and '**maximum volume increase**'parameters.
-	* Once the remeshing process is worked, the weighted average fatness for every iteration at different percentages of maximum volume increase will be recored in the "*_fatness_all.txt" file. 
+	* Once the remeshing process is worked, the weighted average fatness for every iteration at different percentages of maximum volume increase will be recorded in the "*_fatness_all.txt" file. 
 	* To check the current weighted average fatness, press the '**Print Fatness**' button.
 
 5. Press one of the three buttons such as'**Use Heuristic**', '**Use Exact Volume**', and '**Use SVM**' to make the hulls disjoint.
 
 	* Before pressing the button, set '**collapse vertex dist**', '**volume sample size**', and '**c-svm C**' parameters.
-	* the '**c-svm C**', a important parameter, affects both running time and output quality.
+	* the '**c-svm C**', an important parameter, affects both running time and output quality.
 
 		* If '**c-svm C**' is lower, then both computation time and output quality increase.
 	
@@ -98,7 +98,7 @@ To check all of the functions, please go to the [wiki page](https://github.com/y
 	
 6. Press the '**Save Hulls**' button to save the resulting objects. Those resulting files are in the same directory where the Yoshi model exists.
 
-7. To reset all of the process, press '**Rebuild Hulls**'.
+7. To reset all of the processes, press '**Rebuild Hulls**'.
 
 ## Model
 
