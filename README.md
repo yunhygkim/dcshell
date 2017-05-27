@@ -95,7 +95,7 @@ This section is focused on and illustrates how to produce DC-shell step by step.
 		* The '**Use Exact Volume**' button trimming the given objects using the exact volume computation method
 		* The '**Use SVM**' button: trimming the given objects using the support vector machine (SVM) method
 	
-6. Press the '**Save Hulls**' button to save the resulting objects. Those resulting files are in the same directory where the Yoshi model exists.
+6. Press the '**Save Hulls**' button to save the resulting objects. Those resulting files, "\*\_hull\_\*.obj", are in the same directory where the Yoshi model exists.
 
 7. To reset all of the processes, press '**Rebuild Hulls**'.
 
