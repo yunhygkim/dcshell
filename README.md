@@ -1,13 +1,13 @@
 # Disjoint Convex Shell
 #### Yun-hyeong Kim, Zhonghua Xi, Jyh-Ming Lien
 
-Disjoint convex shell(DC-shell) is a set of disjoint convex objects approximating non-convex overlapping object sets.
+Disjoint convex shell (DC-shell) is a set of disjoint convex objects approximating non-convex overlapping object sets.
 The DC-shell method we proposed provides better approximation than those created by other methods. 
 In addition, DC-shell enables faster collision response and realistic fracturing simulation by preventing convex objects from overlapping themselves.
 
 DC-shell implements the algorithms described in the following paper: 
 "Disjoint Convex Shell and its Applications in Mesh Unfolding", SPM 2017, by Yun-hyeong Kim, Zhonghua Xi, and Jyh-Ming Lien. 
-([Web Site](http://masc.cs.gmu.edu/wiki/DCShell) / [Video](https://youtu.be/r8yK_nS0dVk))
+([Web Site] (http://masc.cs.gmu.edu/wiki/DCShell) / [Video] (https://youtu.be/r8yK_nS0dVk))
 
 ## Description
 
