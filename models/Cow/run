@@ -1,3 +1,3 @@
 ln -s ../../build/release/dcshell .
 
-./dcshell cow00.obj cow01.obj cow02.obj cow03.obj cow04.obj cow05.obj cow06.obj cow07.obj cow08.obj cow09.obj cow10.obj cow11.obj cow12.obj cow13.obj cow14.obj cow15.obj cow16.obj cow17.obj cow18.obj cow19.obj cow20.obj cow21.obj cow22.obj cow23.obj cow24.obj cow25.obj cow26.obj cow27.obj
+./dcshell cow2_000.obj cow2_001.obj cow2_002.obj cow2_003.obj cow2_004.obj cow2_005.obj cow2_006.obj cow2_007.obj cow2_008.obj cow2_009.obj cow2_010.obj cow2_011.obj cow2_012.obj cow2_013.obj cow2_014.obj cow2_015.obj
